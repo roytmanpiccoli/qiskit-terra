@@ -1,12 +1,12 @@
 coverage>=4.4.0,<7.0
 hypothesis>=4.24.3
 python-constraint>=1.4
-ipython<7.22.0
+ipython<8.10.0
 ipykernel<5.5.2
 ipywidgets>=7.3.0,<8.0.3
 jupyter
 matplotlib>=3.3
-pillow>=4.2.1
+pillow>=10.3.0
 black[jupyter]~=22.0
 pydot
 astroid==2.5.6
@@ -27,3 +27,7 @@ scikit-quant<=0.7;platform_system != 'Windows'
 jax;platform_system != 'Windows'
 jaxlib;platform_system != 'Windows'
 docplex
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
