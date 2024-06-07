@@ -22,8 +22,10 @@ sphinx-autodoc-typehints~=1.18,!=1.19.3
 jupyter-sphinx
 sphinx-design>=0.2.0
 pygments>=2.4
-scikit-learn>=0.20.0
+scikit-learn>=1.5.0
 scikit-quant<=0.7;platform_system != 'Windows'
 jax;platform_system != 'Windows'
 jaxlib;platform_system != 'Windows'
 docplex
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
