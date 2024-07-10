@@ -17,3 +17,4 @@ singledispatchmethod; python_version < '3.8'
 # before stevedore is fixed.  `importlib_metadata` is not (currently) a direct
 # requirement of Terra.
 importlib_metadata<5.0; python_version<'3.8'
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
