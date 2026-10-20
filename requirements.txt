@@ -18,3 +18,4 @@ singledispatchmethod; python_version < '3.8'
 # requirement of Terra.
 importlib_metadata<5.0; python_version<'3.8'
 setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
